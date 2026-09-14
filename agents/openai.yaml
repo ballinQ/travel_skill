@@ -1,0 +1,4 @@
+interface:
+  display_name: "Expedition Travel Producer"
+  short_description: "Research and produce complex activity-led trips"
+  default_prompt: "Use $expedition-travel-producer to explore and build my trip from an initial idea."

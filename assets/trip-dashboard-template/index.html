@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trip Dashboard</title>
+  <style>
+    :root { color-scheme: light; --ink:#17211b; --muted:#66736b; --paper:#f4f1e8; --card:#fffdf7; --accent:#b74d2b; --line:#d9d2c3; }
+    * { box-sizing:border-box; }
+    body { margin:0; font:16px/1.55 system-ui,sans-serif; color:var(--ink); background:var(--paper); }
+    header, main { width:min(1100px,calc(100% - 32px)); margin:auto; }
+    header { padding:48px 0 20px; }
+    h1 { margin:0; font-size:clamp(2rem,7vw,4.5rem); line-height:.95; }
+    .lede,.meta { color:var(--muted); }
+    nav { display:flex; gap:8px; overflow:auto; padding:16px 0; position:sticky; top:0; background:var(--paper); }
+    button { border:1px solid var(--line); background:var(--card); padding:10px 14px; border-radius:999px; cursor:pointer; white-space:nowrap; }
+    button[aria-selected="true"] { color:white; background:var(--ink); }
+    button:focus-visible, a:focus-visible { outline:3px solid #d78a55; outline-offset:2px; }
+    section[hidden] { display:none; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:14px; }
+    article, details { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:18px; }
+    .status { display:inline-block; padding:3px 9px; border-radius:999px; background:#e9e2d3; font-size:.8rem; }
+    .timeline { border-left:2px solid var(--line); padding-left:18px; }
+    footer { width:min(1100px,calc(100% - 32px)); margin:40px auto; color:var(--muted); }
+    @media print { nav { display:none; } section[hidden] { display:block; } body { background:white; } }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="meta">DESTINATION · DATES · LAST UPDATED</p>
+    <h1>Trip name</h1>
+    <p class="lede">Replace this template with the traveler’s agreed plan. Do not leave sample content.</p>
+  </header>
+  <main>
+    <nav aria-label="Trip sections">
+      <button aria-selected="true" aria-controls="overview">Overview</button>
+      <button aria-selected="false" aria-controls="day-1">Day 1</button>
+    </nav>
+    <section id="overview">
+      <h2>Overview</h2>
+      <div class="grid">
+        <article><span class="status">Booked</span><h3>Confirmed item</h3><p>Add exact terms and link.</p></article>
+        <article><span class="status">Pending</span><h3>Next action</h3><p>Add owner and deadline.</p></article>
+      </div>
+    </section>
+    <section id="day-1" hidden>
+      <h2>Day 1</h2>
+      <div class="timeline"><h3>09:00 · Activity</h3><p>Route, meal, cost, booking, backup, shot list, and narration belong here.</p></div>
+    </section>
+  </main>
+  <footer>Sources · emergency information · checked-at dates</footer>
+  <script>
+    const tabs=[...document.querySelectorAll('nav button')];
+    tabs.forEach(tab=>tab.addEventListener('click',()=>{
+      tabs.forEach(other=>{const active=other===tab;other.setAttribute('aria-selected',String(active));document.getElementById(other.getAttribute('aria-controls')).hidden=!active;});
+    }));
+  </script>
+</body>
+</html>
