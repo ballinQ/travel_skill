@@ -27,6 +27,8 @@ Start from the bundled template when it fits, replacing sample content completel
 
 Prefer a visually specific design reflecting the destination rather than a generic admin dashboard. Decorative effects must not obscure operational information. The bundled template uses an offline-safe illustrated SVG route. A real map may use verified coordinates and online tiles, but must preserve an offline itinerary fallback and disclose connectivity requirements.
 
+For information hierarchy, zoom levels, 2.5D landmarks, daily mission maps, interactions, and accuracy boundaries, read [game-map-system.md](game-map-system.md).
+
 If precise coordinates are unavailable, do not invent them. Use verified map links or mark the location pending. If a route estimate is volatile, label it as an estimate and record the conditions.
 
 ## Validation

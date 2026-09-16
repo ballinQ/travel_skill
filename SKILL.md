@@ -43,6 +43,6 @@ Keep one canonical trip state and a short decision history. The overview must ex
 
 ## Produce the HTML trip map
 
-After the main itinerary is agreed and sufficiently researched, create or update one canonical self-contained HTML trip map. Read [references/html-trip-map.md](references/html-trip-map.md) and use [assets/trip-dashboard-template/index.html](assets/trip-dashboard-template/index.html) as a starting point when suitable.
+After the main itinerary is agreed and sufficiently researched, create or update one canonical self-contained HTML trip map. Read [references/html-trip-map.md](references/html-trip-map.md) and [references/game-map-system.md](references/game-map-system.md), then use [assets/trip-dashboard-template/index.html](assets/trip-dashboard-template/index.html) as a starting point when suitable.
 
 The artifact is a living output, not a decorative summary. Validate its dates, links, status counts, routes, budgets, and interactive behavior after every material update. Do not create drifting duplicate HTML files unless the user explicitly requests an export.
