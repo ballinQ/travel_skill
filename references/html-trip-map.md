@@ -14,12 +14,18 @@ Create one self-contained, mobile-friendly HTML file that remains useful offline
 - Sources show what they support and when they were checked.
 - Recheck list highlights volatile facts and deadlines.
 - Emergency and essential contact information is easy to reach.
+- A compact hero summarizes destination, dates, duration, budget, readiness, and countdown.
+- Map pins and filters coordinate with location details and applicable itinerary days.
+- Daily views expose weather, effort, transit, spend, decision gates, and recovery load at a glance.
+- Support dark theme, print/PDF output, persistent checklist state, and deep links to days when useful.
 
 Avoid a separate narration silo: embed narration in the matching day and activity. Avoid showing rejected comparisons in the execution view; retain only a concise decision note when it helps explain the plan.
 
 ## Implementation
 
 Start from the bundled template when it fits, replacing sample content completely. Keep CSS and JavaScript in the file unless the user requests a project structure. Use semantic HTML, keyboard-operable controls, clear focus states, sufficient contrast, and responsive layouts. Escape inserted text and avoid injecting untrusted page content as HTML.
+
+Prefer a visually specific design reflecting the destination rather than a generic admin dashboard. Decorative effects must not obscure operational information. The bundled template uses an offline-safe illustrated SVG route. A real map may use verified coordinates and online tiles, but must preserve an offline itinerary fallback and disclose connectivity requirements.
 
 If precise coordinates are unavailable, do not invent them. Use verified map links or mark the location pending. If a route estimate is volatile, label it as an estimate and record the conditions.
 
@@ -33,6 +39,7 @@ Check:
 - Currency and budget arithmetic
 - Links and anchors
 - Tabs, accordions, filters, and print layout
+- Theme, countdown, checklist persistence, map pins, and location drawer
 - No duplicate IDs or hidden essential content
 - Mobile readability
 - No stale option presented as current
