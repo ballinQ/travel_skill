@@ -15,6 +15,22 @@ Reduce user typing without turning the conversation into a long questionnaire. A
 - Reuse known answers and accessible conversation context. Do not ask the user to repeat facts.
 - Ask free-form questions only when a meaningful option cannot be anticipated.
 
+## Blocking popup invariant
+
+A clickable question popup is a blocking interaction. Before opening it, finish and checkpoint any work that must survive the pause. Then invoke exactly one blocking interactive-input request and await its returned answer.
+
+While the popup is open:
+
+- Do not launch the request asynchronously or leave it unawaited.
+- Do not continue browsing, researching, editing, or generating the itinerary in parallel.
+- Do not call another tool, yield control, send a final response, or complete the turn.
+- Do not interpret elapsed time, an empty pending state, or text being typed as an answer.
+- Do not replace or supersede the pending popup with a second popup.
+
+Bundle up to the interface's supported question limit into one popup when the traveler should answer them together. The popup may close only after the user submits, explicitly cancels or dismisses it, or the host reports that the interaction is unavailable. Treat cancellation or dismissal as no answer: preserve the pending question and do not infer a choice.
+
+If the available interaction mechanism cannot block and wait reliably, do not show a transient popup. Use a normal end-of-turn question so the user has a stable place to answer.
+
 If interactive controls are unavailable, use a compact text fallback and make the selectable labels easy to copy or answer by name. Do not delay the trip plan solely because the interface cannot render buttons.
 
 Useful early choices cover destination focus, dates or season, duration, origin, party, pace, anchor experiences, food profile, photo/video profile, comfort needs, and spend-versus-save priorities. Do not ask all of them when several can be inferred.

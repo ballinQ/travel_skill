@@ -38,6 +38,8 @@ Do not let one slow, logged-out, broken, or unavailable marketplace hold the who
 
 If a login, CAPTCHA, missing date, or user-only choice is truly required, finish all independent research first. Ask only for the smallest action needed and preserve a clear next step in the trip state.
 
+Before opening a blocking choice popup, save the pending question and current stage. Do not perform background work while the popup waits. If the popup is dismissed without an answer, keep that question pending for the next interaction.
+
 Do not wait for perfect information before showing useful progress. Update Version 0.1 and its pending fields as reliable facts arrive.
 
 ## Resume behavior
