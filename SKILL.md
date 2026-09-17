@@ -21,7 +21,7 @@ Read [references/guided-planning.md](references/guided-planning.md) for the inta
 
 Do a quick current scan and offer about three meaningfully different directions, such as active, cultural/food, and balanced. For each, show the route, major experiences, pace, flexible spend profile, principal tradeoff, and why it may fit. Let the user choose, combine, or reject directions before conducting expensive deep research.
 
-As soon as the destination frame, duration, dates or season, travel rhythm, spend priorities, and main trip goals are sufficiently clear, produce the first useful itinerary. Include the trip arc, preliminary map, day themes, anchor activities, likely neighborhoods, budget shape, and explicit gaps. Do not wait until every meal or hour is known. Continue with guided choices for Day 1, Day 2, and later days, updating the same plan after each answer.
+When the destination frame, duration, dates or season, travel rhythm, spend priorities, and main trip goals are sufficiently clear, summarize the collected inputs and present a clickable readiness gate. Wait until the traveler explicitly chooses to generate the first draft; allow them to keep adding or correcting details without starting research. After the start choice, produce the first useful itinerary with the trip arc, preliminary map, day themes, anchor activities, likely neighborhoods, budget shape, and explicit gaps. Do not wait until every meal or hour is known. Continue with guided choices for Day 1, Day 2, and later days, updating the same plan after each answer.
 
 When the trip direction is selected, read [references/research-and-verification.md](references/research-and-verification.md) and [references/trip-state-schema.md](references/trip-state-schema.md).
 

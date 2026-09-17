@@ -19,9 +19,26 @@ If interactive controls are unavailable, use a compact text fallback and make th
 
 Useful early choices cover destination focus, dates or season, duration, origin, party, pace, anchor experiences, food profile, photo/video profile, comfort needs, and spend-versus-save priorities. Do not ask all of them when several can be inferred.
 
+## Intake completion gate
+
+The model cannot see text that is still being typed and an individual sent message may be only one part of the traveler's answer. During initial intake, save each submitted answer but do not begin the research or Version 0.1 merely because the minimum fields appear complete.
+
+Once enough information is collected, show a compact summary and use a clickable question with choices equivalent to:
+
+- `Generate Version 0.1 — use these answers now`
+- `Keep adding details — wait for more messages`
+- `Review or correct answers — show editable choices`
+- The interface-provided custom answer field
+
+Treat only the explicit generate choice, or an equally clear user instruction such as `start`, `go ahead`, or `make the first version`, as authorization to begin the initial planning run. If the traveler chooses to continue, acknowledge and remain in collection mode. Do not research ahead while waiting.
+
+If the traveler says or implies `not finished`, `wait`, `还有`, `等等`, `先别开始`, or sends an obviously partial sequence, keep `intake_status: collecting` and wait for the next submitted message. Do not guess how long they need and do not use a timer as consent.
+
+After the traveler explicitly starts the first draft, ordinary day-by-day choices may trigger their scoped update immediately unless the user asks to batch several answers first.
+
 ## Earliest useful draft
 
-Generate Version 0.1 when these are clear enough:
+Generate Version 0.1 after the traveler passes the intake completion gate and these are clear enough:
 
 - Destination or workable region
 - Approximate duration and timing

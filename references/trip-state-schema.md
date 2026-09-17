@@ -15,6 +15,7 @@ Maintain these concepts in the artifact or supporting structured data. Omit irre
 - Sources: URL, claim supported, source role, last checked, recheck date.
 - Decision history: decision, reason, alternatives rejected, date, and what changed downstream.
 - Continuity checkpoint: last completed stage, current step, next action, open user decision, recent changes, source attempts, and last saved time.
+- Intake control: `collecting`, `ready_for_confirmation`, or `generation_started`, plus whether the traveler wants to batch more answers before any update.
 
 ## Status vocabulary
 

@@ -15,6 +15,8 @@ Checkpoint after:
 - A reservation is confirmed, cancelled, or changes
 - A day, map route, budget, or safety gate is updated
 
+During intake, checkpoint answers with `intake_status: collecting`. Do not change it to `generation_started` until the traveler explicitly passes the completion gate.
+
 The snapshot should contain confirmed facts, current assumptions, decisions, rejected options with brief reasons, researched candidates, source timestamps, open questions, next action, and the last completed planning stage. Do not store passwords, payment data, authentication codes, or unnecessary personal data.
 
 ## Visible progress
