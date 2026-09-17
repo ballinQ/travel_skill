@@ -13,6 +13,7 @@ Create Version 0.1 once the trip frame and direction are clear. It may contain d
 - The map contains every operationally relevant location with category filters and links back to its day.
 - Booking cards preserve provider, product, price/currency, date, cancellation deadline, identifier when supplied, and source link.
 - Hotel cards show the live total-stay price, tax/fee status, room type, rate type, stars, guest score with scale, review count, cancellation terms, source, and checked-at time.
+- Hotel comparisons show the exact full-stay difference from the lowest acceptable option and visibly align meaningful inclusions such as breakfast, shuttle, parking, refundability, room features, and itinerary travel time. Each option states what the extra spend gains and what it gives up.
 - Budget separates paid, committed, estimated, and contingency amounts.
 - Sources show what they support and when they were checked.
 - Recheck list highlights volatile facts and deadlines.

@@ -71,6 +71,32 @@ Rank a concise shortlist against the trip rather than rating hotels in the abstr
 
 For each option show live total, star class, guest score, review count, neighborhood, decisive strengths, decisive weakness, cancellation terms, and source. Explain why the winner fits this itinerary.
 
+## Make tradeoffs visible
+
+Present the shortlist in a comparison matrix or aligned cards so the traveler can see what changes with the price. Use the lowest acceptable option as the price baseline and show each alternative's exact full-stay difference, for example `+CA$146 versus lowest`.
+
+Compare the inclusions that materially affect value or convenience:
+
+- Breakfast: included or excluded, serving constraints, and number of travelers covered
+- Airport, station, theme-park, ski, or activity shuttle: included, scheduled, on request, paid, or absent
+- Parking and charging
+- Refundability and payment timing
+- Room size, bed, view, balcony, kitchen, laundry, or workspace
+- Luggage storage and reception hours
+- Resort credit, lounge, meals, or other usable benefits
+- Distance or realistic travel time to itinerary anchors
+- Expected extra transfers, early departures, or late-night access burden
+
+Give every option a one-line exchange statement in this form:
+
+`Pay [difference] more and gain [useful benefits]; give up [meaningful weakness].`
+
+When the cheaper option creates an extra cost, show it beside the saving when the cost can be verified. Examples include breakfast for two, mandatory parking, resort fees, or an airport transfer. Do not assign invented cash values to amenities. If the replacement cost is unknown or variable, describe the effect qualitatively and keep it outside the arithmetic.
+
+Show both gross price difference and effective difference only when every adjustment uses comparable, sourced amounts. Label the calculation, such as `effective difference after mandatory parking`, and expose its components.
+
+Use clear symbols or labels such as `Included`, `Paid`, `Unavailable`, and `Unknown`; do not treat missing information as an included or excluded benefit. Visually highlight the few rows that actually determine the recommendation rather than filling the matrix with generic amenities.
+
 Do not use a rigid formula when a hard requirement controls the choice. Otherwise balance total cost, guest evidence, room suitability, cancellation, location, and itinerary-specific convenience. Reject a cheaper property when the room type, reception hours, safety, sleep, or transport constraints make it unsuitable.
 
 ## Volatility and recheck
