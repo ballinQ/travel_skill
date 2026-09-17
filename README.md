@@ -5,24 +5,30 @@ A personal Codex skill that turns an early destination idea into a researched, e
 ## What it does
 
 - Learns only the traveler preferences that materially affect the trip.
+- Uses compact guided choices with a custom-answer path to reduce typing.
 - Offers a few quick directions before spending time on deep research.
+- Produces an early Version 0.1 itinerary as soon as the trip frame and goals are clear, then improves individual days through guided choices.
 - Separates inspiration, official verification, booking data, and review evidence.
+- Builds food and photo recommendations from user-defined preference mixes, preferred platforms, current search language, engagement quality, and geographic fit.
 - Compares flights, lodging, and activities by total cost, convenience, flexibility, reliability, and itinerary fit.
+- Allocates spending by category, allowing wide differences between food, lodging, transport, and signature activities.
 - Maintains clear trip states such as tentative, selected, booked, completed, and cancelled.
 - Coordinates dates, routes, recovery, weather, equipment, safety gates, meals, filming, and narration.
 - Produces one canonical mobile-friendly HTML trip dashboard and map.
 
 ## Planning approach
 
-The skill deliberately avoids producing a large itinerary immediately. It uses a staged workflow:
+The skill avoids pretending that an unresearched itinerary is final. It produces a useful early draft, then develops it through a staged workflow:
 
-1. Briefly learn the traveler's idea, constraints, interests, pace, and preferred sources.
+1. Briefly learn the traveler's idea, constraints, interests, pace, spend priorities, and preferred sources through guided choices.
 2. When offered, extract only useful preferences from accessible past conversations.
 3. Perform a quick scan and offer a few meaningfully different trip directions.
 4. Let the traveler select or combine a direction.
-5. Deep-research the selected trip using appropriate official, booking, review, and inspiration sources.
-6. Maintain confirmed, selected, tentative, rejected, cancelled, and completed items separately.
-7. Produce and continually update one canonical HTML trip dashboard.
+5. Generate a visible first itinerary with day themes, anchors, map, and clearly marked open slots.
+6. Refine each day and high-impact booking through further guided choices.
+7. Deep-research the selected trip using appropriate official, booking, review, social, and inspiration sources.
+8. Maintain confirmed, selected, tentative, rejected, cancelled, and completed items separately.
+9. Continually update one canonical HTML trip dashboard.
 
 The skill does not claim to search every website or guarantee the universally lowest price. It compares a broad, efficient source set, records when volatile information was checked, and explains the tradeoffs behind its ranking.
 

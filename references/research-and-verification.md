@@ -3,9 +3,10 @@
 ## Research funnel
 
 1. Use a fast scan to identify distinct trip directions and rough feasibility.
-2. Deep-research only the direction the user selects.
-3. Verify bookable candidates shortly before the user makes a decision.
-4. Record volatile facts with a checked-at date and a recheck point.
+2. Produce an early itinerary draft after the user selects a direction; mark unresolved details explicitly.
+3. Deep-research the selected direction and the next day or decision being refined.
+4. Verify bookable candidates shortly before the user makes a decision.
+5. Record volatile facts with a checked-at date and a recheck point.
 
 ## Source roles
 
@@ -28,6 +29,10 @@ Rank against the user's actual priorities. Provide:
 - Comfort or experience upgrade when materially different
 
 Explain the decisive tradeoff. Preserve one credible fallback. Avoid long undifferentiated lists.
+
+Do not force the whole trip into a single economy, standard, or luxury tier. First determine where the traveler wants to splurge, stay moderate, or save. Apply a spend profile by category, such as flights, lodging, food, signature activities, local transport, shopping, and filming. Allow a wide range between categories and include an unconstrained or premium option when it matches the traveler.
+
+When the total budget is unknown, compare feasible spend shapes instead of blocking. For example, contrast `premium food + simple activities`, `basic hotel + signature experiences`, and `comfort throughout`, with the resulting tradeoffs.
 
 Do not claim to have searched the entire web. Say which representative source categories were checked, when prices were observed, and that availability can change.
 

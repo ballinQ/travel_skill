@@ -4,14 +4,14 @@ Maintain these concepts in the artifact or supporting structured data. Omit irre
 
 ## Core
 
-- Traveler profile: origin, party, pace, interests, comfort, mobility/health constraints, dietary needs, filming needs, preferred sources.
+- Traveler profile: origin, party, pace, interests, comfort, mobility/health constraints, dietary needs, food preference mix, photo/check-in profile, filming needs, preferred sources, queue tolerance, and reservation tolerance.
 - Trip frame: destination, timezone, dates, duration, budget, currency, fixed commitments.
 - Transport and lodging: exact segments, locations, check-in/out, baggage, transfers, cancellation.
 - Activities: status, operator, schedule, meeting point, requirements, inclusions, safety and fallback.
 - Daily itinerary: time blocks, travel time, meals, reservations, costs, route, energy load, alternatives.
 - Equipment and preparation: owned, provided, rent, buy, confirm, packing and purchase deadlines.
 - Filming and narration: shots, restrictions, story facts, pronunciation, narration, source confidence.
-- Budget: paid, confirmed-but-unpaid, estimated, contingency, currency assumptions.
+- Budget: paid, confirmed-but-unpaid, estimated, contingency, currency assumptions, category-level splurge/save priorities, and any flexible or unconstrained categories.
 - Sources: URL, claim supported, source role, last checked, recheck date.
 - Decision history: decision, reason, alternatives rejected, date, and what changed downstream.
 

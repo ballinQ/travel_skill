@@ -2,6 +2,8 @@
 
 Create one self-contained, mobile-friendly HTML file that remains useful offline for core itinerary content. External map tiles or live links may require connectivity; make that limitation visible.
 
+Create Version 0.1 once the trip frame and direction are clear. It may contain deliberately open time blocks, tentative locations, preliminary routes, and pending research, but must label them honestly. Update the same artifact after each meaningful guided choice instead of waiting for a fully researched final plan.
+
 ## Required experience
 
 - Overview is the default view and source of truth.
