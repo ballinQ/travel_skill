@@ -13,6 +13,8 @@ A personal Codex skill that turns an early destination idea into a researched, e
 - Compares flights, lodging, and activities by total cost, convenience, flexibility, reliability, and itinerary fit.
 - Verifies hotel prices against live inventory for the exact dates and occupancy, separating star class from guest score and review volume.
 - Shows hotel tradeoffs side by side, including the exact price difference and what breakfast, shuttle, parking, location, room features, and cancellation flexibility add or remove.
+- Searches live attraction, ticket, tour, and guide products across preferred platforms such as Tripadvisor, Expedia, Trip.com, Viator, GetYourGuide, Klook, and official or direct sources.
+- Saves decisions and research checkpoints continuously so interrupted work resumes from the current plan instead of relying on conversation history.
 - Allocates spending by category, allowing wide differences between food, lodging, transport, and signature activities.
 - Maintains clear trip states such as tentative, selected, booked, completed, and cancelled.
 - Coordinates dates, routes, recovery, weather, equipment, safety gates, meals, filming, and narration.

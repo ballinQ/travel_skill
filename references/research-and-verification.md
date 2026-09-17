@@ -38,6 +38,8 @@ Do not claim to have searched the entire web. Say which representative source ca
 
 For hotels, follow [lodging-research.md](lodging-research.md). Do not rank named properties using estimated prices when exact dates and occupancy are available.
 
+For attractions, tickets, tours, guides, and activity packages, follow [activity-research.md](activity-research.md). Compare the exact product variant and party total rather than marketplace headline prices.
+
 ## Booking boundary
 
 Research, recommendation, and filling a plan do not mark an item booked. Record a booking only from user confirmation or visible evidence. Preserve provider, exact product or room, price and currency, participants, date/time, confirmation identifier when supplied, cancellation deadline, inclusions, exclusions, pickup details, and link.

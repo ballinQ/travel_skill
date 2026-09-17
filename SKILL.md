@@ -27,6 +27,8 @@ When the trip direction is selected, read [references/research-and-verification.
 
 Before naming or ranking specific hotels, read [references/lodging-research.md](references/lodging-research.md). Use live bookable prices for the traveler's exact stay rather than estimates, and show the exact price difference alongside the benefits and compromises that create it.
 
+Before recommending bookable attractions, tickets, tours, guides, or packages, read [references/activity-research.md](references/activity-research.md). Check live products on the user's preferred marketplace or a representative mix such as Tripadvisor, Expedia, Trip.com, Viator, GetYourGuide, Klook, and official or direct operator sources.
+
 When food, photography, check-ins, or social inspiration matter, read [references/food-photo-discovery.md](references/food-photo-discovery.md).
 
 ## Build an executable trip
@@ -48,6 +50,8 @@ Keep considered, tentative, booked, cancelled, rejected, and completed states di
 ## Maintain one trip record
 
 Keep one canonical trip state and a short decision history. The overview must expose confirmed items, pending actions, deadlines, unresolved dependencies, and facts requiring later recheck. Correct earlier conclusions transparently when stronger evidence appears.
+
+Read [references/continuity.md](references/continuity.md) and checkpoint accepted choices and material research as work progresses. If work is interrupted, resume from saved state with a short current-status summary and the next actionable choice; never require the traveler to reconstruct progress from a long conversation.
 
 ## Produce the HTML trip map
 

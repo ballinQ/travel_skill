@@ -12,11 +12,13 @@ Create Version 0.1 once the trip frame and direction are clear. It may contain d
 - Each day includes timeline, route, transit, meals, costs, reservations, conditions, backup, filming, and narration as applicable.
 - The map contains every operationally relevant location with category filters and links back to its day.
 - Booking cards preserve provider, product, price/currency, date, cancellation deadline, identifier when supplied, and source link.
+- Activity comparisons align official admission, marketplace tours, and guide or package variants by total party price, admissions, group size, pickup, guide language, duration, inclusions, cancellation, rating, and review count.
 - Hotel cards show the live total-stay price, tax/fee status, room type, rate type, stars, guest score with scale, review count, cancellation terms, source, and checked-at time.
 - Hotel comparisons show the exact full-stay difference from the lowest acceptable option and visibly align meaningful inclusions such as breakfast, shuttle, parking, refundability, room features, and itinerary travel time. Each option states what the extra spend gains and what it gives up.
 - Budget separates paid, committed, estimated, and contingency amounts.
 - Sources show what they support and when they were checked.
 - Recheck list highlights volatile facts and deadlines.
+- The overview shows the last completed step, current work, next decision, and recent changes so progress survives interruptions.
 - Emergency and essential contact information is easy to reach.
 - A compact hero summarizes destination, dates, duration, budget, readiness, and countdown.
 - Map pins and filters coordinate with location details and applicable itinerary days.
@@ -28,6 +30,8 @@ Avoid a separate narration silo: embed narration in the matching day and activit
 ## Implementation
 
 Start from the bundled template when it fits, replacing sample content completely. Keep CSS and JavaScript in the file unless the user requests a project structure. Use semantic HTML, keyboard-operable controls, clear focus states, sufficient contrast, and responsive layouts. Escape inserted text and avoid injecting untrusted page content as HTML.
+
+When practical, embed a compact machine-readable trip-state checkpoint in the self-contained HTML and keep it synchronized with the visible overview. Never include secrets or payment credentials.
 
 Prefer a visually specific design reflecting the destination rather than a generic admin dashboard. Decorative effects must not obscure operational information. The bundled template uses an offline-safe illustrated SVG route. A real map may use verified coordinates and online tiles, but must preserve an offline itinerary fallback and disclose connectivity requirements.
 
