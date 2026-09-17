@@ -5,7 +5,7 @@ A personal Codex skill that turns an early destination idea into a researched, e
 ## What it does
 
 - Learns only the traveler preferences that materially affect the trip.
-- Uses compact guided choices with a custom-answer path to reduce typing.
+- Uses clickable guided choices whenever the interface supports them, with a final custom-answer path.
 - Offers a few quick directions before spending time on deep research.
 - Produces an early Version 0.1 itinerary as soon as the trip frame and goals are clear, then improves individual days through guided choices.
 - Separates inspiration, official verification, booking data, and review evidence.

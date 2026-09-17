@@ -4,14 +4,18 @@ Reduce user typing without turning the conversation into a long questionnaire. A
 
 ## Choice design
 
+- Use the interface's interactive question control whenever it is available so the traveler can answer by clicking.
+- Do not present plain numbered or bulleted choices when clickable controls are available.
 - Prefer one to three questions per round.
 - Offer two to four distinct choices; combine overlapping choices.
 - Put the likely or balanced choice first when a recommendation is justified.
 - Allow combinations when preferences are not mutually exclusive.
-- End with `Other — type your own` when the interface does not already provide a custom response field.
+- Always preserve a custom-answer path. If the interface automatically adds an `Other` text field, do not add a duplicate option. Otherwise make `Other — type your own` the final option.
 - Include a short consequence in each label or description, such as `Fast pace — more highlights, less downtime`.
 - Reuse known answers and accessible conversation context. Do not ask the user to repeat facts.
 - Ask free-form questions only when a meaningful option cannot be anticipated.
+
+If interactive controls are unavailable, use a compact text fallback and make the selectable labels easy to copy or answer by name. Do not delay the trip plan solely because the interface cannot render buttons.
 
 Useful early choices cover destination focus, dates or season, duration, origin, party, pace, anchor experiences, food profile, photo/video profile, comfort needs, and spend-versus-save priorities. Do not ask all of them when several can be inferred.
 

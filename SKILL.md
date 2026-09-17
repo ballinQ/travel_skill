@@ -9,7 +9,7 @@ Turn an initial place or experience into a practical trip without researching th
 
 ## Start lightly
 
-First learn only what changes the trip: the initial idea, origin, approximate dates and duration, companions, hard constraints, travel interests, and where the traveler prefers to spend or save. Use guided choices that minimize typing. When the interface supports selectable questions, prefer 2–4 clear options and leave the final choice open for custom input. Otherwise present the same choices compactly and include `Other — type your own` last. Ask in small batches and explain unfamiliar distinctions briefly.
+First learn only what changes the trip: the initial idea, origin, approximate dates and duration, companions, hard constraints, travel interests, and where the traveler prefers to spend or save. Use clickable guided choices whenever the current interface provides an interactive question tool. Do not replace available clickable controls with a numbered text list. Offer 2–4 clear choices and ensure the final path accepts a custom answer; when the client automatically supplies an `Other` input, rely on it rather than duplicating it. Only fall back to compact text choices ending in `Other — type your own` when interactive controls are unavailable. Ask in small batches and explain unfamiliar distinctions briefly.
 
 Ask whether the user has preferred sources for flights, lodging, activities, or inspiration. Examples may include airline-direct sites, Expedia, Google Flights, Booking, TripAdvisor, Xiaohongshu, or YouTube. If there is no preference, choose a broad but efficient source mix.
 
