@@ -12,6 +12,7 @@ Create Version 0.1 once the trip frame and direction are clear. It may contain d
 - Each day includes timeline, route, transit, meals, costs, reservations, conditions, backup, filming, and narration as applicable.
 - The map contains every operationally relevant location with category filters and links back to its day.
 - Booking cards preserve provider, product, price/currency, date, cancellation deadline, identifier when supplied, and source link.
+- Hotel cards show the live total-stay price, tax/fee status, room type, rate type, stars, guest score with scale, review count, cancellation terms, source, and checked-at time.
 - Budget separates paid, committed, estimated, and contingency amounts.
 - Sources show what they support and when they were checked.
 - Recheck list highlights volatile facts and deadlines.

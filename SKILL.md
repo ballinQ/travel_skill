@@ -25,6 +25,8 @@ As soon as the destination frame, duration, dates or season, travel rhythm, spen
 
 When the trip direction is selected, read [references/research-and-verification.md](references/research-and-verification.md) and [references/trip-state-schema.md](references/trip-state-schema.md).
 
+Before naming or ranking specific hotels, read [references/lodging-research.md](references/lodging-research.md). Use live bookable prices for the traveler's exact stay rather than estimates.
+
 When food, photography, check-ins, or social inspiration matter, read [references/food-photo-discovery.md](references/food-photo-discovery.md).
 
 ## Build an executable trip

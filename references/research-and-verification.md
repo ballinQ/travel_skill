@@ -36,6 +36,8 @@ When the total budget is unknown, compare feasible spend shapes instead of block
 
 Do not claim to have searched the entire web. Say which representative source categories were checked, when prices were observed, and that availability can change.
 
+For hotels, follow [lodging-research.md](lodging-research.md). Do not rank named properties using estimated prices when exact dates and occupancy are available.
+
 ## Booking boundary
 
 Research, recommendation, and filling a plan do not mark an item booked. Record a booking only from user confirmation or visible evidence. Preserve provider, exact product or room, price and currency, participants, date/time, confirmation identifier when supplied, cancellation deadline, inclusions, exclusions, pickup details, and link.
