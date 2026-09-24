@@ -55,6 +55,6 @@ Read [references/continuity.md](references/continuity.md) and checkpoint accepte
 
 ## Produce the HTML trip map
 
-After the main itinerary is agreed and sufficiently researched, create or update one canonical self-contained HTML trip map. Read [references/html-trip-map.md](references/html-trip-map.md) and [references/game-map-system.md](references/game-map-system.md), then use [assets/trip-dashboard-template/index.html](assets/trip-dashboard-template/index.html) as a starting point when suitable.
+After the main itinerary is agreed and sufficiently researched, create or update one canonical self-contained HTML trip map. Read [references/html-trip-map.md](references/html-trip-map.md) and [references/game-map-system.md](references/game-map-system.md), then use [assets/trip-dashboard-template/index.html](assets/trip-dashboard-template/index.html) as a starting point when suitable. When the request calls for a substantial map redesign, 3D landmarks, cinematic camera behavior, route playback, or game-like interactions, also use the installed `travel-game-map-designer` skill to choose the rendering stack, interaction model, performance safeguards, and browser validation.
 
 The artifact is a living output, not a decorative summary. Validate its dates, links, status counts, routes, budgets, and interactive behavior after every material update. Do not create drifting duplicate HTML files unless the user explicitly requests an export.
