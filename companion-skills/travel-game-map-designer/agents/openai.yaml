@@ -1,0 +1,4 @@
+interface:
+  display_name: "Travel Game Map Designer"
+  short_description: "Design playable, accurate interactive trip maps"
+  default_prompt: "Design or improve this trip map as an accurate, game-like interactive travel world."
